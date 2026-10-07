@@ -68,8 +68,8 @@ OUTPUT_ROOT = EXECUTIONS_ROOT / "resultados"
 BASELINES_ROOT = Path(r"C:\GDrive2026\TM-MSA\Datasets\GPCRdb\precomputed")
 
 FUN_NAME = "FUN.tsv"
-F1_NAME = "Topology-aware structural SoP"
-F2_NAME = "LDDT"
+F1_NAME = "topology-aware Sum-of-Pairs"
+F2_NAME = "internal structural lDDT"
 NORMALIZATION = "minmax"
 
 # FUN.tsv ya contiene los valores reales restaurados: ambos se maximizan.
@@ -411,7 +411,7 @@ def plot_results(solutions: list[Solution], combined: list[Solution], selections
 
     ax.set_xlabel(f"Normalized {args.f1_name}")
     ax.set_ylabel(f"Normalized {args.f2_name}")
-    ax.set_title(args.title or f"Combined Pareto front — {args.dataset}")
+    ax.set_title(args.title or f"Pareto-front approximation — {args.dataset}")
     ax.grid(False)
     # Show only the range occupied by visible points, with a small margin.
     # Excluded baselines do not affect the visual limits.
