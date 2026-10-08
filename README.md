@@ -16,6 +16,20 @@ It is designed to support **reproducible research** in structural bioinformatics
 
 ---
 
+## Project ecosystem
+
+This benchmark is part of the TM-M2StructAlign research ecosystem:
+
+| Resource | Repository |
+| --- | --- |
+| **TM-M2StructAlign source code** | [TM-M2StructAlign](https://github.com/TM-M2StructAlign/TM-M2StructAlign) |
+| **GPCR structural benchmark and experimental resources** | [Dataset_Structural_GPCRs](https://github.com/TM-M2StructAlign/Dataset_Structural_GPCRs) |
+| **Main manuscript and supplementary material** | [TM-M2StructAlign-Paper](https://github.com/JOELITO07/TM-M2StructAlign-Paper) |
+
+The companion data-article manuscript is maintained in [TM-M2StructAlign_Dataset_paper](https://github.com/JOELITO07/TM-M2StructAlign_Dataset_paper).
+
+---
+
 ## Dataset Versions
 
 The dataset is provided in **two complementary versions** to support different experimental scenarios.
@@ -221,8 +235,19 @@ For structure-based methods, extract PDB files from the corresponding class dire
 
 ## Citation
 
-If you use this dataset in your research, please cite:
+If you use this dataset or the associated software, please cite the relevant methodological publications and data resource.
 
+**Published predecessor**
+
+Cedeño-Muñoz, J., Zambrano-Vega, C., and Nebro, A. J. (2025). *TMP-M2Align: A Topology-Aware Multiobjective Approach to the Multiple Sequence Alignment of Transmembrane Proteins*. **Algorithms, 18**(10), 640. https://doi.org/10.3390/a18100640
+
+**Current structure-guided method**
+
+Cedeño-Muñoz, J., Zambrano-Vega, C., and Nebro, A. J. *TM-M2StructAlign: A Multiobjective Tool for Structure-Guided Multiple Sequence Alignment of G Protein-Coupled Receptors Using AlphaFold2-Derived Constraints*. Manuscript prepared for **Computational Biology and Chemistry**. Manuscript source: [TM-M2StructAlign-Paper](https://github.com/JOELITO07/TM-M2StructAlign-Paper).
+
+**Companion data article**
+
+*A Curated Dataset of Human GPCR Sequences, AlphaFold-Predicted Structures, Transmembrane Topologies, and Reference Alignments for Structural Bioinformatics*. Data-article manuscript source: [TM-M2StructAlign_Dataset_paper](https://github.com/JOELITO07/TM-M2StructAlign_Dataset_paper).
 
 ---
 
